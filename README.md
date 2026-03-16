@@ -4,3 +4,5 @@ This project discusses the challenges in accessing healthcare and decision-makin
 The system uses Flan-T5-Base for clinical summarization and BioMistral-7B models for symptom diagnosis,and triage assessment and Meditron-7B for medical QA. A Retrieval-Augmented Generation (RAG) framework enhances clinical reasoning by retrieving relevant historical cases and medical knowledge.
 
 The development undergoes a systematic pipeline encompassing data preprocessing, baseline evaluations, model fine-tuning using LoRA-based parameter-efficient training, and deployment. Models were evaluated using classification metrics, probability calibration, and RAG quality assessment via the RAGAS framework. Uses include emergency department triage, telehealth consultations, clinical documentation support, and patient education, all aiding in better healthcare delivery, fewer diagnostic mistakes, and greater access to medical knowledge.
+
+![Architecture](images/workflow.png)
