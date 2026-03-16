@@ -5,4 +5,5 @@ The system uses Flan-T5-Base for clinical summarization and BioMistral-7B models
 
 The development undergoes a systematic pipeline encompassing data preprocessing, baseline evaluations, model fine-tuning using LoRA-based parameter-efficient training, and deployment. Models were evaluated using classification metrics, probability calibration, and RAG quality assessment via the RAGAS framework. Uses include emergency department triage, telehealth consultations, clinical documentation support, and patient education, all aiding in better healthcare delivery, fewer diagnostic mistakes, and greater access to medical knowledge.
 
-![Architecture](images/workflow.png)
+![Architecture](https://github.com/hamsaram14/GenMedX---Generative-AI-Healthcare-Agent/blob/main/workflow.png)
+
